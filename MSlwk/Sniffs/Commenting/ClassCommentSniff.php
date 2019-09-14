@@ -19,6 +19,7 @@ class ClassCommentSniff implements Sniff
         '@magentoAppIsolation',
         '@api',
         '@author',
+        '@package'
     ];
 
     public function register()
