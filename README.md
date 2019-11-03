@@ -1,5 +1,5 @@
 # php-coding-standards
-Custom PHP CS Rules
+Custom PHP CS Rules by Gallinago
 
 ## Installation
 
@@ -9,7 +9,7 @@ Add the following to your `composer.json` file:
 "repositories" : [
     {
         "type": "vcs",
-        "url": "git@github.com:maciejslawik/php-coding-standards.git"
+        "url": "git@github.com:gallinago/php-coding-standards.git"
     }
 ]
 ```
@@ -17,7 +17,7 @@ Add the following to your `composer.json` file:
 Then run:
 
 ```
-composer require maciejslawik/php-coding-standards:dev-master --dev
+composer require gallinago/php-coding-standards:dev-master --dev
 ```
 
 ## Usage
@@ -25,5 +25,5 @@ composer require maciejslawik/php-coding-standards:dev-master --dev
 Assuming you have phpcs installed:
 
 ```
-./vendor/bin/phpcs -s /folder/to/code --standard=vendor/maciejslawik/php-coding-standards/MSlwk
+./vendor/bin/phpcs -s /folder/to/code --standard=vendor/gallinago/php-coding-standards/Gallinago
 ```

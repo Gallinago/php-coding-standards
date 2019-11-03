@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="MSlwk">
+<ruleset name="Gallinago">
     <description>The coding standard for PHP projects</description>
     <rule ref="PSR2"/>
     <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
@@ -15,7 +15,7 @@
         </properties>
     </rule>
     <rule ref="Squiz.WhiteSpace.SemicolonSpacing"/>
-    <rule ref="MSlwk.Commenting.ClassComment">
+    <rule ref="Gallinago.Commenting.ClassComment">
         <severity>5</severity>
     </rule>
 </ruleset>

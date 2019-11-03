@@ -1,6 +1,6 @@
 <?php
 
-namespace MSlwk\Sniffs\Commenting;
+namespace Gallinago\Sniffs\Commenting;
 
 use PHP_CodeSniffer\Sniffs\Sniff;
 use PHP_CodeSniffer\Files\File;
